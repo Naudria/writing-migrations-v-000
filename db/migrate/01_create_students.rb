@@ -1,5 +1,6 @@
-class CreateStudents < ActiveRecord::Migration[5.1]
-  # the code to create a table with ActiveRecord
+class CreateStudents < ActiveRecord::Migration[4.2]
+  # create a table with ActiveRecord
+  # define a method 'change' that uses 'create_table' method within it
   def change
     create_table :students do |s|
       s.string :name
