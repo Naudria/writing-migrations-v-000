@@ -1,4 +1,4 @@
-class CreateStudents < ActiveRecord::Migration[4.2]
+class CreateStudents < ActiveRecord::Migration[5.1]
   # create a table with ActiveRecord
   # define a method 'change' that uses 'create_table' method within it
   def change
